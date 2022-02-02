@@ -1,0 +1,24 @@
+{
+
+    "phonrs":[{
+
+        "make":"iphone",
+        "model" : "x"
+
+    },
+
+    {
+        "make": "samsung",
+        "model": "S10"
+    },
+
+    {
+        "make": "huawei",
+        "model": "p10"
+
+    }
+
+
+
+]
+}
