@@ -3,3 +3,13 @@
 body {
     height: 100%
 }
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: #a5a5b1;
+    display: grid;
+    place-items: center
+}
