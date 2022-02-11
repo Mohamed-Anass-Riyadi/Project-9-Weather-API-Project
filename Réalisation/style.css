@@ -13,3 +13,12 @@ body {
     display: grid;
     place-items: center
 }
+
+.card {
+    color: #6f707d;
+}
+.search-input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
