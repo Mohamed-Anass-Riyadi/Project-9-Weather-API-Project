@@ -20,3 +20,15 @@ return reponse.json()
 
 console.log(data),
    
+  
+    
+document.getElementById('name').textContent = data.name,
+document.getElementById('wind').textContent = data.wind.speed,
+document.getElementById('weather').textContent = data.weather[0].description,
+document.getElementById('IDcity').textContent = "id:" +data.id
+document.getElementById('iconM').src = "http://openweathermap.org/img/w/"+data.weather[0].icon+".png";
+document.getElementById('Temp').innerHTML = data.main.temp +" °C" 
+  
+
+})
+}
